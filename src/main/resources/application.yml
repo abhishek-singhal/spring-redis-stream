@@ -1,0 +1,12 @@
+spring:
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    
+redis:
+  consumer:
+    name: consumer2
+    group: myGroup
+  stream:
+    key: myProfiles
